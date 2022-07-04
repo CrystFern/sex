@@ -1,0 +1,46 @@
+body{
+   background-image:url(imej/wood2.jpg);
+}
+
+Table{
+    font-family:verdana;         
+    font-size:12px;
+    font weight:normal
+    text-allign:center;
+    
+    width:650px
+    margin:0px auto
+    border-collapse:collape;
+    box-shadow:15 px 15 px 6px rgba(96,96,96,0.7);
+    }
+    
+    caption{
+        font-size:16px;
+        font-weight:bold;
+        color:saddlebrown;
+        padding:8px;
+    }
+    
+    td,th{
+         padding:8px;
+         border:2px solid saddlebrown;
+    }
+    
+    td.nama{
+         width:150px;
+         text-allign:left;
+    }
+    
+    tr:nth-child(odd){
+         background-color:tan;
+    }
+    
+    tr:nth-child(even){
+    background-color:wheat;
+    }
+    
+    th{
+       font-weight:bold;
+       color:white;
+       background-color:maroon;
+    }

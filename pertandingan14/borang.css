@@ -1,0 +1,105 @@
+body{
+    background-image: url(imej/wood2.jpg);
+}
+
+h3{
+   font-family: verdana;;
+   font-size: 14px;
+   font-weight: bold;
+   text-align: center;
+   color:white;
+
+   padding: 5px 22px;
+   border-radius: 10px 10px 0 0;
+   margin: 40px auto 0px;
+   background-color:saddlebrown;
+   box-shadow: 15px 15px 6px 0px rgba(96,96,96,0.7);
+}
+
+form{
+   font-family: verdana;
+   font-size: 10px;
+   font-weight: bold;
+   text-align: center;
+   color:black;
+
+   padding: 20px;
+   border:2px solid saddlebrown;
+   border-radius:0px 0px 10px 10px;
+   margin: 0px auto;
+   background-color:PeachPuff;
+   box-shadow: 15px 15px 6px 0px rgba(96,96,96,0.7);
+
+}
+
+form.pendek, h3.pendek{
+    width:250px;
+}
+
+form.sederhana, h3.sederhana{
+    width:300px;
+}
+
+form.panjang, h3.panjang{
+    width:330px;
+}
+
+form.markah, h3.markah{
+    width:430px;
+}
+ 
+table{
+   font-family: verdana;
+   font-size: 12px;
+}
+
+/*cantumkan sekali*/
+input[type="text"], 
+input[type="password"],
+select{
+     width: 200px;
+     padding: 5px;
+     margin: 5px;
+}
+
+input.markah{
+    width: 70px;
+    padding: 3px;
+    margin: 2px;
+    text-align: center;
+}
+
+select.markah{
+     width: 200px;
+     padding: 3px;
+     margin: 2px;
+}
+
+td.markah_jumlah{
+  font-weight: bold;
+  text-align: center;
+}
+
+td:nth-child(1){
+    width: 100px;
+    text-align: left;
+}
+
+td.nth-child(2){
+    width: 100px;
+    text-align: center;
+}
+ 
+td.nth-child(3){
+    width: 150px;
+    text-align: center;
+}
+ 
+table.markah{
+    margin-top : 5px;
+    width : 430px;
+}
+
+th{
+     padding-bottom : 5px;
+}

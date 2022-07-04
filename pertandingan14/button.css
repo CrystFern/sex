@@ -1,0 +1,67 @@
+button {
+   font-family: verdana;
+   font-weight: bold;
+   font-size: 11px;
+   text-align: center;
+   color: darkolivegreen;
+   
+   width: 90px;
+   padding : 7px 8px 7px 32px;
+   border: 1px solid darkolivegreen;
+   border-radius: 7px;
+   margin-top: 10px;
+   background-position: 8px;
+   background-repeat: no-repeat;
+}
+
+button.login {
+  background-image: url(imej/sigin.png);
+}
+
+button.signup {
+  background-image: url(imej/signup.png);
+}
+
+button.import {
+   background-image: url(imej/import.png);
+}
+
+button.tambah {
+  background-image: url(imej/add.png);
+}
+
+button.simpan {
+  background-image: url(imej/save.png);
+}
+
+button.padam {
+  background-image: url(imej/delete.png);
+}
+button.update {
+    background-image: url(imej/update.png);
+}
+button.merah {
+    background-image: url(imej/red.png);
+}
+button.biru {
+    background-image: url(imej/blue.png);
+}
+button.hijau {
+    background-image: url(imej/green.png);
+}
+button.hitam {
+    background-image: url(imej/black.png);
+}
+button.cetak {
+    background-image: url(imej/printer.png);
+}
+button.papar {
+    background-image: url(imej/monitor.png);
+}
+button.cari {
+    background-image: url(imej/search.png);
+}
+button:hover {
+    background-color: darkgray;
+    cursor:pointer;
+}
